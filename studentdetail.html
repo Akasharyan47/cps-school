@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/studentdetail.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header" id="urnme">
+            <ul>
+                <li><a class="logindp"><img src="image/user01.png"></a></li>
+                <li><a class="loginname" id="urnme">Akash Kumar</a></li>
+                <li><a class="logout" onclick="close_window()"> Logout</a></li>
+            </ul>
+            <div id="hideshow" onclick="replace()" class="studentdetail"><a id="hideshow">Student Detail</a> </div>
+        </div>
+
+        <section>
+            <div id="show1" class="headmaster">
+                <div class="headmasterbox">
+                    <ul>
+                        <li><a class="pfdetail"> Profile Detail</a></li>
+                        <li><a class="pfedit">Edit Detail</a></li>
+                    </ul>
+                </div>
+                <div class="headmasterdetail">
+                    <ul>
+                        <li><a class="hdname">Name </a></li>
+                        <li><a class="dsgn">Designation </a></li>
+                        <li><a class="dob">Date of Birth</a></li>
+                        <li><a class="eml">Email</a></li>
+                        <li><a class="cnumber">Contact Number</a></li>
+
+                        <li>: Satendra Kumar </li>
+                        <li>: Head Master </li>
+                        <li>: 00-00-2000 </li>
+                        <li>: abc@gmail.com </li>
+                        <li>: +9112346789 </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="show2" class="stlist">
+
+                <!--   new formate   -->
+
+                <div class="stlist1">
+                    <div class="stlist01">
+
+                        <div class="btn-group" onclick="toggleItems()">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                aria-expanded="true">All CLASS <span class="caret"></span>
+                                <i class="fa fa-caret-down " aria-hidden="true"></i></button>
+                            <ul  class="dropdown-menu">
+                                <li>
+                                    <label onclick="lkg();" style="display: block;" class="checkbox-inline" for="inlineCheckbox17">LKG</label>
+                                </li>
+                                <li>
+                                    <label onclick="ukg();"  style="display: block;" class="checkbox-inline" for="inlineCheckbox18">UKG</label>
+                                </li>
+                                <li>
+                                    <label  style="display: block;"class="checkbox-inline" for="inlineCheckbox19">1 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" style="display: block;" class="checkbox-inline" for="inlineCheckbox20">2 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox21">3 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox17">4 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox18">5 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox19">6 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox20">7 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox21">8 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox18">9 STD</label>
+                                </li>
+                                <li>
+                                    <label style="display: block;" class="checkbox-inline" for="inlineCheckbox19">10 STD</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="search">
+                        <a>Search Students </a>
+                        <input type="text" class="searchterm " id="myInput" onkeyup="myFunction()"
+                            placeholder="Enter student name...">
+                    </div>
+                    <div class="totaldtudent">
+                        <a>Total Students</a>
+                        <a id="tnum" class="tstudent"></a>
+                    </div>
+
+                </div>
+
+                <!--   end  formate -->
+                <div class="stmain2">
+                    <div onclick='reloadDIV();' id="clear" class="sodata">
+                        <table id="myTable">
+                            <thead id="data">
+                                <tr>
+                                    <th>Student Name</th>
+                                    <th>Roll Number</th>
+                                    <th>Student Id</th>
+                                    <th>Student Name</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<script src="js/main.js"></script> 
+<script src="js/studentdetail.js"></script>
+</body>
+</html>

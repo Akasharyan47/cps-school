@@ -1,0 +1,437 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*   start  main 1 */
+
+
+
+.main1 {
+
+  background-color: #005F8E;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+
+}
+
+.main1 .centerpic {
+  display: block;
+  overflow: hidden;
+
+  background-position: center;
+  background-size: cover;
+  margin: 7px 15px 7px 15px;
+  width: 100%;
+  max-height: 40vh;
+
+}
+
+.centerpic img {
+
+  width: 100%;
+  border: none;
+  min-width: 800px;
+  pointer-events: none;
+
+}
+
+.centerpic a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  font-size: 80px;
+  font-weight: 500px;
+  color: rgb(10, 10, 10);
+}
+
+/*  responsive  main1  */
+
+@media (max-width:450) {
+  .main1 {
+    display: none;
+  }
+
+}
+
+@media (max-width:450px) {
+
+
+  .centerpic img {
+    overflow: hidden;
+    width: 100%;
+    min-width: 100px;
+
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
+
+  .centered {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-display: unset;
+    font-weight: 500px;
+    color: rgb(223, 219, 219);
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+
+
+/*    MAIN 2    STAT */
+
+
+.main2 {
+  display: block;
+
+  flex: auto;
+  width: 100%;
+  background-color: #f0f0f0e0;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.main2 .wlcm1 {
+  margin-top: 2px;
+  display: inline-flex;
+
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  font-style: normal;
+  color: #595959;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main2 .wlcm2,
+.wlcm4 {
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  color: #005F8E;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main2 .wlcm4 {
+  padding-bottom: 15px;
+}
+
+.main2 .wlcm3 a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  color: #404040;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 16px;
+  margin-left: 18%;
+  margin-right: 18%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.main2 .wlcm1 a:after {
+  background-color: #FFC000;
+  text-align: center;
+  top: -8px;
+  margin-left: 10px;
+  position: relative;
+  display: inline-flex;
+  content: "";
+  box-sizing: border-box;
+  border: 6px solid #FFC000;
+  width: 1.7em;
+  border-radius: 2.5em;
+  transform: rotate(180deg);
+}
+
+.main2 .wlcm1 a:before {
+  margin-right: 10px;
+  text-align: center;
+  top: -8px;
+  position: relative;
+  display: inline-flex;
+  background-color: #FFC000;
+  content: "";
+  box-sizing: border-box;
+  border: 6px solid #FFC000;
+  width: 1.7em;
+  border-radius: 2.5em;
+  transform: rotate(180deg);
+}
+
+.main2 .wlcm4 a:before {
+  background-color: #005F8E;
+  position: relative;
+  display: inline-block;
+  content: "";
+  box-sizing: border-box;
+  border: 2.5px solid #005F8E;
+  width: 27px;
+  border-radius: 2.5em;
+  margin: 10px;
+  transform: rotate(90deg);
+}
+
+.main2 .wlcm3 :after {
+  background-color: #FFC000;
+  position: absolute;
+  display: flex;
+  content: "";
+  box-sizing: border-box;
+  border: 3px solid #FFC000;
+  width: 60%;
+  margin-top: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 2.5em;
+  transform: rotate(180deg);
+}
+
+/*  MAIN 3  START  */
+
+.main3 {
+  background-color: #005F8E;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+
+}
+
+.main3 .announcement2:before {
+  background-color: #FFC000;
+  position: relative;
+  display: flex;
+  content: "";
+  box-sizing: border-box;
+  border: 3px solid #FFC000;
+  width: 30%;
+  border-radius: 2.5em;
+  transform: rotate(180deg);
+  float: left;
+}
+
+.main3 .announcement1:before {
+  background-color: #FFC000;
+  position: relative;
+  display: flex;
+  content: "";
+  box-sizing: border-box;
+  border: 3px solid #FFC000;
+  width: 30%;
+  border-radius: 2.5em;
+  transform: rotate(180deg);
+  transform: skew(20deg);
+  float: right;
+
+}
+
+.announcement1 {
+  width: 50%;
+  border-right: 60px solid #FFC000;
+  transform: skew(-20deg);
+  display: block;
+
+}
+
+.announcement2 {
+  width: 50%;
+  display: block;
+
+}
+
+.announcements1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+.main3 .announcement11 {
+  transform: skew(20deg);
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+
+}
+
+
+.announcements1 .ansment1 {
+  display: flex;
+  max-width: 150px;
+  font-size: 17px;
+  padding: 6px 18px 6px 10px;
+  overflow: hidden;
+  background-color: #FFC000;
+  min-width: 160px;
+
+}
+
+.announcements .announcements1 .ansment2 {
+  position: relative;
+  max-width: 150px;
+  font-size: 17px;
+  padding: 6px 18px 6px 10px;
+  overflow: hidden;
+  background-color: #FFC000;
+  min-width: 160px;
+
+}
+
+.announcements .announcements2 {
+  width: 70%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: block;
+
+}
+
+.announcements2 a {
+  margin-top: 20px;
+  font-size: 30px;
+  width: 100%;
+  display: block;
+  position: relative;
+  color: #F2F2F2;
+}
+
+.fa {
+  font: normal normal normal 14px/1 fontawesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.announcements2 ul {
+  display: block;
+  width: 80%;
+  height: 160px;
+  overflow: auto;
+  min-width: 250px;
+
+}
+
+.announcements2 ul li {
+  cursor: pointer;
+  margin: 20px;
+  color: #F2F2F2;
+  border-bottom: 1px solid rgba(45, 109, 194, 0.918);
+  line-height: 1.5rem;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*    MOBILE RESPONSIVE */
+
+@media screen and (max-width:800px) {
+  .main3 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    display: block;
+  }
+
+  .main3 .announcement1 {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .main3 .announcement2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .main3 .announcements2 a {
+    margin: 5px;
+  }
+
+  .ansment1 {
+    transform: none;
+    display: flex;
+    justify-self: start;
+    float: left;
+  }
+
+  .announcements .announcements1 {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+  }
+
+  .announcements .announcements1 .ansment2 {
+    overflow: hidden;
+    float: left;
+  }
+
+  .main3.announcements2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    border: none;
+    transform: none;
+  }
+
+  .main3 .announcement2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main3 .announcement2:before {
+    display: none;
+  }
+
+  .main3 .announcement1:before {
+    display: none;
+  }
+}
+
+/*   END  MOBILE RESPONSIVE */
+
+/*   MAIN 3  END  */
