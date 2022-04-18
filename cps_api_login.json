@@ -1,0 +1,14 @@
+
+api url: http://127.0.0.1:5000/login
+
+# Payload
+{
+  "user_id": "string",
+  "password": "string"
+}
+
+# Response
+{
+  "status": "success/failed",
+  "user_name": "string"
+}
