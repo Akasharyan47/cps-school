@@ -17,13 +17,11 @@
   width: 100%;
   overflow: hidden;
   display: flex;
-
 }
 
 .main1 .centerpic {
   display: block;
   overflow: hidden;
-
   background-position: center;
   background-size: cover;
   margin: 7px 15px 7px 15px;
@@ -111,7 +109,6 @@
 .main2 .wlcm1 {
   margin-top: 2px;
   display: inline-flex;
-
   font-size: 30px;
   font-weight: bold;
   padding: 5px;
@@ -209,18 +206,11 @@
 
 @media screen and (max-width:500px){
   .main2 .wlcm1  a{
- 
     font-size: 25px;
- 
   }
- 
   .main2 .wlcm2  a{
- 
     font-size: 25px;
- 
   }
-
-
 }
 
 
