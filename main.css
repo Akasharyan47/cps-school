@@ -61,6 +61,7 @@
 
 }
 
+
 @media (max-width:450px) {
 
 
@@ -68,7 +69,7 @@
     overflow: hidden;
     width: 100%;
     min-width: 100px;
-
+  min-height: 150px;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -205,6 +206,24 @@
   border-radius: 2.5em;
   transform: rotate(180deg);
 }
+
+@media screen and (max-width:500px){
+  .main2 .wlcm1  a{
+ 
+    font-size: 25px;
+ 
+  }
+ 
+  .main2 .wlcm2  a{
+ 
+    font-size: 25px;
+ 
+  }
+
+
+}
+
+
 
 /*  MAIN 3  START  */
 
