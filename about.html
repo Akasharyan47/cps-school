@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1263cf5403.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header" id="headerhidden">
+        <div class="logo1-col">
+            <div class="logo">
+                <img class="logoimg" src="image/My project (1).jpg">
+                <a class="lgnme" href="index.html">CENTRAL PUBLIC SCHOOL
+                    <span style="font-weight:400;color:#7F7F7F;font-style:italic; font-size:12px;"><br> Ghusia
+                        Kalan
+                    </span>
+                </a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="index.html">Home</a></li>
+                <li><a class="navbar-link" href="about.html">ABOUT</a></li>
+                <li><a class="navbar-link" href="admission.html">ADMISSION</a></li>
+                <li><a class="navbar-link" href="#">ACADEMICS</a></li>
+                <li>
+                    <a class="navbar-link" href="teacher.html">TEACHERS</a>
+                <li>
+                    <a class="navbar-link">
+                        <div class="loginbox1">
+                            <button class="lgbtnn " style="color:white; background-color: #005F8E;"
+                                onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+                            <div id="id01" class="modal">
+                                <form id="form" class="modal-content animate">
+                                    <div class="imgcontainer">
+                                        <span onclick="document.getElementById('id01').style.display='none'"
+                                            class="close" title="Close">&times;</span>
+                                        <a class="avatar1">Enter Details</a>
+                                        <a class="avatar2">Only School Administrator allowed</a>
+                                    </div>
+                                    <div class="containerr">
+                                        <div class="input1">
+                                            <label for="usname">User Id:</label>
+                                            <input type="text"
+                                                style="font-weight:400;color:#7F7F7F;font-style:italic; font-size:12px;margin-left:15px;"
+                                                placeholder="Enter User Id" id="user_id" name="uname" required>
+                                        </div>
+                                        <div class="input1">
+                                            <label for="psw">Password:</label>
+                                            <input
+                                                style="font-weight:400;color:#7F7F7F;font-style:italic; font-size:12px;"
+                                                type="password" placeholder="Enter Password" id="password" name="psw"
+                                                required>
+                                        </div>
+                                        <button type="submit" onclick="reseform()" class="lbtn" id="submit">Log
+                                            In</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </a>
+                </li>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mobile-navbar-btn" id="menu-btn">
+            <a class="mobile-nav-icon" id="mobile-nav-icon">
+                <i class="fa-solid fa-bars" onclick="bars()"></i>
+                <i class="fa-solid fa-xmark" onclick="xmark()"></i>
+            </a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="comn_sec inrpagbdy_sec abut_pg contact_pg">
+            <div class="container">
+                <div class="breadcrumb-trail breadcrumbs">
+                    <ul class="trail-items">
+                        
+                        <li><span>ABOUT</span></li>
+                    </ul>
+                </div>
+                <h2>Contact with us</h2>
+                <br>&nbsp;
+                <p> Please send the mail, and we will get back to you. </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cont_adrs_cel">
+                            <h5> <span class="icn_crcl"><img src="https://www.bitcollege.in/bit_assets/images/c_map.png"
+                                        alt=""></span> Our Address</h5>
+
+                            <p><strong>School: </strong>
+                                Ghusia kalan, Bikramganj ,
+                                <br> District - Rohtas ,
+                                <br>State - Bihar ,
+                                <br>Pin_code - 802212
+                            </p>
+                            <p><strong>Near:</strong> Panitanki ( Ghusia kalan ).</p>
+                        </div>
+
+                        <div class="cont_adrs_cel">
+                            <h5> <span class="icn_crcl"><img
+                                        src="https://www.bitcollege.in/bit_assets/images/c_call.png" alt=""></span>
+                                Contact Number</h5>
+                            <p><strong>School:</strong> +91 6292219054</p>
+                            <p><strong>Principal:</strong> +91 8265331437, 033-4180-4111/4222</p>
+                            <p><strong>Director:</strong> +91 9913250268, 033-4180-4111/4222</p>
+                        </div>
+
+
+                        <div class="cont_adrs_cel">
+                            <h5> <span class="icn_crcl"><img
+                                        src="https://www.bitcollege.in/bit_assets/images/c_call.png" alt=""></span>
+                                Admission Helpline</h5>
+                            <p><span>Call:</span> +91 4180 4180 42</p>
+
+                        </div>
+
+                        <div class="cont_adrs_cel">
+                            <h5> <span class="icn_crcl"><img
+                                        src="https://www.bitcollege.in/bit_assets/images/c_mail.png" alt=""></span>
+                                Email Us</h5>
+                            <p>admin.cpsschoolghu.in</p>
+                            <p>cpschoolghu@gmail.com</p>
+                        </div>
+
+                        <div class="cont_adrs_cel">
+                            <h5> <span class="icn_crcl"><img
+                                        src="https://go4live.info/Bengal_Institute_of_Technology/bit_assets/images/c_web.png"
+                                        alt=""></span> Website</h5>
+                            <p><a class="web_lnk" href="#" target="_blank">www.cpsschoolghu.in</a>
+                            </p>
+                        </div>
+
+
+                        <div class="cont_adrs_cel flow_socl">
+                            <h5> Follow Us On:</h5>
+                            <ul>
+                                <li><a href="https://www.facebook.com/bitcollegetechno" target="_blank"><img
+                                            class="img-responsive"
+                                            src="https://go4live.info/Bengal_Institute_of_Technology/upload/fcbk_icn.png"
+                                            alt=""></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCwkD3zGI4PFDCP2nNDepMlg/about"
+                                        target="_blank"><img class="img-responsive"
+                                            src="https://go4live.info/Bengal_Institute_of_Technology/upload/yutub_icn.png"
+                                            alt=""></a></li>
+                                <li><a href="https://twitter.com/bitcollegetechn" target="_blank"><img
+                                            class="img-responsive"
+                                            src="https://go4live.info/Bengal_Institute_of_Technology/upload/twtr_icn.png"
+                                            alt=""></a></li>
+                                <li><a href=" https://www.linkedin.com/school/bengal-institute-of-technology/"
+                                        target="_blank"><img class="img-responsive"
+                                            src="https://go4live.info/Bengal_Institute_of_Technology/upload/lndn_icn.png"
+                                            alt=""></a></li>
+                                <li><a href="https://www.instagram.com/bit_kolkata/" target="_blank"><img
+                                            class="img-responsive"
+                                            src="https://go4live.info/Bengal_Institute_of_Technology/upload/inst_icn.png"
+                                            alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <h4 class="col-mh4">Send Us a <span>Message</span></h4>
+
+                        <form enctype="multipart/form-data">
+                            <div class="form-group">
+                                <input type="text" class="form-control nput_fild" id="name" name="name"
+                                    placeholder="Name*" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control nput_fild" name="email" id="email"
+                                    placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="number" class="form-control nput_fild" name="phone" id="phone"
+                                    pattern="\d{10}" placeholder="Phone">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control nput_fild" id="city" name="city"
+                                    placeholder="City">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control nput_fild" id="state" name="state"
+                                    placeholder="State">
+                            </div>
+
+                            <textarea class="form-control nput_fild2" rows="3" placeholder="Comments" name="comment"
+                                id="comment"></textarea>
+
+                            <div class="form-group">
+                                <input type="submit" name="submit" value="Submit" class="btn btn-default submit_btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+ 
+</body>
+
+<script src="js/teacher.js"></script>
+<script src="js/main.js"></script>
+</html>
