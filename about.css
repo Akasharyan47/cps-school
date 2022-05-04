@@ -7,15 +7,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
  
-
-/* html {
-  font-size: 62.5%;
-  
-} */
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 html {
@@ -91,13 +85,52 @@ html {
   font-size:25px;
   color: #161616;
 } 
-@media only screen and (max-width: 1500px) {
+@media (max-width: 767px){
+  .mvision_pag ol li, .inrpagbdy_sec p, .abut_pg .row p {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 520px){
+.abut_pg p {
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+}
+
+@media only screen and (max-width: 1500px){
   .abut_pg p {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 32px;
     margin-bottom: 25px;
-  }
-} 
+}
+}
+
+.abut_pg p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #373737;
+    line-height: 36px; 
+     margin-bottom: 30px;
+}
+p {
+    text-align: justify !important;
+}
+div, ul, li, p, form, h5, h6, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+ 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .inrpagbdy_sec h2:before,
 .knim h2:before {
   position: absolute;
@@ -302,23 +335,6 @@ ul {
   width: 100%;
 }
 
-@media only screen and (max-width: 1500px) {
-  .abut_pg p {
-    /* font-size: 15px; */
-    line-height: 32px;
-    margin-bottom: 25px;
-  }
-}
-
-.abut_pg p {
-  font-size: 18px;
-  font-weight: 300;
-  color: #373737;
-  line-height: 36px;
-  margin-bottom: 30px;
-}
-
- 
 .cont_adrs_cel p strong {
   color: #EB4747;
 }
