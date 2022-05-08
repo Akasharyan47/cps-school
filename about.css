@@ -139,7 +139,7 @@ p {
   bottom: -12px;
   height: 3px;
   width: 80px;
-  background: #d10a11;
+  background: #FFC000;
 }
  
 
@@ -336,7 +336,7 @@ ul {
 }
 
 .cont_adrs_cel p strong {
-  color: #EB4747;
+color: #005F8E;
 }
 b,strong {
   font-weight: 700;
@@ -518,7 +518,7 @@ textarea {
   transition: 0.6s;
   float: right;
   height: 50px;
-  background: #D10A11;
+  background: #005F8E;
   border-radius: 8px;
   border: 0px;
   color: #fff;
