@@ -7,7 +7,7 @@
   text-decoration: none;
   box-sizing: border-box;
 }
- 
+
 
 html {
   font-size: 62.5%;
@@ -148,12 +148,6 @@ p {
 }
 
 
-@media only screen and (max-width: 1500px) {
-  .breadcrumbs {
-    margin-bottom: 50px;
-  }
-}
-
 
 ol,
 ul {
@@ -171,11 +165,6 @@ ul {
   padding-inline-start: 40px;
 }
 
-@media only screen and (max-width: 1500px) {
-  .breadcrumbs ul li {
-    font-size: 14px;
-  }
-}
 
 @media only screen and (max-width: 1500px) {
   .abut_pg .row {
@@ -257,6 +246,27 @@ ul {
   color: #000;
 }
 
+.cont_adrs_cel {
+  float: none;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+.flow_socl ul li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  margin: 4px;
+  padding: 0px;
+
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
 h5 {
   display: block;
   font-size: 0.70em;
@@ -307,7 +317,7 @@ h5 {
 
 .cont_adrs_cel p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.5rem;
   color: #000;
   line-height: 30px;
   margin-bottom: 0px;
@@ -325,185 +335,6 @@ strong {
 
 }
 
-@media (min-width: 992px) {
-  .col-md-6 {
-    width: 50%;
-  }
-}
-
-.contact_pg h4 {
-  font-weight: 600;
-  font-size: 20px;
-  display: inline;
-  margin-left: 6px;
-  line-height: 30px;
-}
-
-.cont_adrs_cel {
-  float: none;
-  overflow: hidden;
-  margin-bottom: 30px;
-  padding-right: 10px;
-}
-
-
-.flow_socl ul li {
-  list-style: none;
-  display: inline-block;
-  vertical-align: top;
-  margin: 4px;
-  padding: 0px;
-
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
-.contact_pg form {
-  margin-top: 3rem;
-}
-
-@media (max-width: 1024px) {
-  .contact_pg form .nput_fild {
-    height: 46px;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-
-  .contact_pg form .nput_fild,
-  .contact_pg form .nput_fild2,
-  .contact_pg form select {
-    margin-bottom: 18px;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-
-  .contact_pg form .nput_fild,
-  .contact_pg form select {
-    height: 54px;
-  }
-}
-
-.contact_pg form .nput_fild,
-.contact_pg form select {
-  float: right;
-  background: #ffffff;
-  border: 1px solid #E6DDDD;
-  box-sizing: border-box;
-  height: 50px;
-  box-shadow: 0px 16px 17px rgb(210 210 210 / 25%);
-  border-radius: 2px;
-  font-weight: 300;
-  font-size: 1.5rem;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 20px;
-}
-
-input {
-  line-height: normal;
-}
-
-input[type="text"i] {
-  padding: 1px 2px;
-}
-
-@media only screen and (max-width: 1500px) {
-
-  .contact_pg form .nput_fild,
-  .contact_pg form .nput_fild2,
-  .contact_pg form select {
-    margin-bottom: 18px;
-  }
-}
-
-
-.contact_pg form .nput_fild2 {
-  background: #FFFFFF;
-  border: 1px solid #E6DDDD;
-  box-sizing: border-box;
-  box-shadow: 0px 16px 17px rgb(210 210 210 / 25%);
-  border-radius: 1px;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 35px;
-  float: right;
-}
-
-textarea.form-control {
-  height: auto;
-}
-
-.form-control {
-  display: block;
-  width: 90%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
-  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
-
-
-textarea {
-  overflow: auto;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  margin: 0;
-  font: inherit;
-  color: inherit;
-}
-
-@media only screen and (max-width: 1500px) {
-  .contact_pg .submit_btn {
-    height: 55px;
-  }
-}
-
-
-.contact_pg .submit_btn {
-  width: 130px;
-  transition: 0.6s;
-  float: right;
-  height: 40px;
-  background: #005F8E;
-  border-radius: 8px;
-  border: 0px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 10px;
-
-}
-
-button,
-html input[type=button],
-input[type=reset],
-input[type=submit] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
 
 .flow_socl ul {
   margin: 0px 0px 0px 15px;
@@ -550,6 +381,115 @@ ul {
 .cont_adrs_cel {
   float: none;
   overflow: hidden;
-  margin-bottom: 20px;
+
   padding-right: 10px;
+}
+
+/*   send msg   */
+
+
+@media (min-width: 992px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+.contact_pg h4 {
+  float: right;
+  width: 92%;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.contact_pg form {
+  width: 80%;
+  margin-top: 3rem;
+  height: auto;
+
+}
+
+@media (max-width: 1024px) {
+  .contact_pg form .nput_fild {
+    height: 46px;
+  }
+}
+
+.contact_pg form .nput_fild,
+.contact_pg form select {
+  background: #ffffff;
+  border: 1px solid #E6DDDD;
+  box-sizing: border-box;
+  height: 40px;
+  box-shadow: 0px 16px 17px rgb(210 210 210 / 25%);
+  border-radius: 2px;
+  font-weight: 300;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 15px;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="text"i] {
+  padding: 1px 2px;
+}
+
+textarea.form-control {
+  height: auto;
+
+}
+
+.contact_pg .form-control {
+  float: right;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  display: block;
+  width: 90%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+textarea {
+  overflow: auto;
+}
+
+.contact_pg .submit_btn {
+  display: block;
+  width: 150px;
+  transition: 0.6s;
+  float: right;
+  height: 40px;
+  background: #005F8E;
+  border-radius: 8px;
+  border: 0px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
 }
