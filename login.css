@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 .loginbox1 .lgbtnn{
-  padding:7px 25px 7px 25px;
+  padding:6px 25px 6px 25px;
  background-color: #006599;
   letter-spacing: 2px; 
   color: #262626d0;
@@ -112,7 +112,7 @@ span.psw {
   display: block;
   background-color: #ffffff;
   position: relative;
-  width: 450px;
+width:fit-content;
   height: auto;
   opacity: 0.95;
   margin: 10% auto 15% auto;
