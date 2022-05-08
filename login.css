@@ -86,7 +86,7 @@ span.psw {
 }
 
 .containerr .input1 label {
-  margin: 10px;
+  margin: 5px;
   color: #7F7F7F;
 }
 
@@ -108,17 +108,15 @@ span.psw {
 
 
 .modal-content {
+  background-color: #ffffff; 
+  opacity: 0.95; 
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.521); 
   text-align: center;
-  display: block;
-  background-color: #ffffff;
-  position: relative;
-width:fit-content;
-  height: auto;
-  opacity: 0.95;
-  margin: 10% auto 15% auto;
-  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.521);
   align-items: center;
-  justify-items: center;
+  height:max-content;
+  margin: 15% auto 15% auto;
+  width:fit-content;
+ position:  relative;
 
 }
 
