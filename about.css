@@ -146,6 +146,10 @@ p {
   width: 80px;
   background: #FFC000;
 }
+
+
+ 
+
 @media only screen and (max-width: 1500px) {
   .abut_pg .row {
     margin-top: 30px;
@@ -157,11 +161,11 @@ p {
   margin-top: 40px;
   margin-bottom: 100px;
 }
-
 .row {
   margin-right: -15px;
   margin-left: -15px;
 }
+
 @media (min-width: 992px) {
   .col-md-6 {
     float: left;
@@ -194,15 +198,6 @@ p {
   overflow: hidden;
   margin-bottom: 30px;
   padding-right: 10px;
-}
-
- 
-.cont_adrs_cel h5 .icn_crcl {
-  width: 60px;
-  height: 60px;
-  display: block;
-  padding: 10px;
-  float: left;
 } 
 .contact_pg .cont_adrs_cel p {
   margin-bottom: 6px;
@@ -458,7 +453,18 @@ ul {
   width: 36px;
   margin: 2px 0px;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
 
+img {
+    border: 0;
+}
 .flow_socl ul li {
   list-style: none;
   display: inline-block;
@@ -492,3 +498,69 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: underline;
 }
+
+
+
+
+
+
+
+/* address */
+
+
+@media only screen and (max-width: 520px){
+  .cont_adrs_cel h5 .icn_crcl {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+}
+
+
+.cont_adrs_cel h5 .icn_crcl {
+    width: 50px;
+    height: 50px; 
+    margin-right: 15px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    float: left; 
+    border: 1px solid #757677;
+}
+ 
+  .cont_adrs_cel h5 .icn_crcl img {
+    width: 70%; 
+    margin-top: 7px; 
+}
+.cont_adrs_cel h5 .icn_crcl  img {
+    vertical-align: middle;
+    
+}
+img {
+    border: 0;
+}
+.cont_adrs_cel h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 58px;
+  color: #000;
+}
+
+div, ul, li, p, form, h5, h6, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+.h5, h5 {
+  font-size: 14px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+} 
+ 
