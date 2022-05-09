@@ -524,8 +524,7 @@ a:-webkit-any-link {
     display: block;
     text-align: center;
     line-height: 40px;
-    float: left; 
-    border: 1px solid #757677;
+    float: left;  
 }
  
   .cont_adrs_cel h5 .icn_crcl img {
