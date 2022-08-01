@@ -1,0 +1,176 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/applicationprocess.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admission.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1263cf5403.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+<body>
+    <header class="header" id="headerhidden">
+        <div class="logo1-col">
+            <div class="logo">
+                <img class="logoimg" src="image/My project (1).jpg">
+                <a class="lgnme" href="index.html">CENTRAL PUBLIC SCHOOL
+                    <span style="font-weight:400;color:#7F7F7F;font-style:italic; font-size:12px;"><br> Ghusia
+                        Kalan
+                    </span>
+                </a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="index.html">Home</a></li>
+                <li><a class="navbar-link" href="about.html">ABOUT</a></li>
+                <li><a class="navbar-link" href="admission.html">ADMISSION</a></li>
+                <li><a class="navbar-link" href="#">ACADEMICS</a></li>
+                <li>
+                    <a class="navbar-link" href="teacher.html">TEACHERS</a>
+                <li>
+                    <a class="navbar-link">
+                        <div class="loginbox1">
+                            <button class="lgbtnn " style="color:white; background-color: #005F8E;"
+                                onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+                            <div id="id01" class="modal">
+                                <form id="form" class="modal-content animate">
+                                    <div class="imgcontainer">
+                                        <span onclick="document.getElementById('id01').style.display='none'"
+                                            class="close" title="Close">&times;</span>
+                                        <a class="avatar1">Enter Details</a>
+                                        <a class="avatar2">Only School Administrator allowed</a>
+                                    </div>
+                                    <div class="containerr">
+                                        <div class="input1">
+                                            <label for="usname">User Id:</label>
+                                            <input type="text"
+                                                style="font-weight:400;color:#7F7F7F;font-style:italic; font-size:12px;margin-left:15px;"
+                                                placeholder="Enter User Id" id="user_id" name="uname" required>
+                                        </div>
+                                        <div class="input1">
+                                            <label for="psw">Password:</label>
+                                            <input
+                                                style="font-weight:400;color:#7F7F7F;font-style:italic; font-size:12px;"
+                                                type="password" placeholder="Enter Password" id="password" name="psw"
+                                                required>
+                                        </div>
+                                        <button type="submit" onclick="reseform()" class="lbtn" id="submit">Log
+                                            In</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </a>
+                </li>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mobile-navbar-btn" id="menu-btn">
+            <a class="mobile-nav-icon" id="mobile-nav-icon">
+                <i class="fa-solid fa-bars" onclick="bars()"></i>
+                <i class="fa-solid fa-xmark" onclick="xmark()"></i>
+            </a>
+        </div>
+    </header>
+
+    <main id="main" class="admissionmain">
+        <section>
+            <div class="admprocess ">
+                <div class="admprocess1">
+                    <a> ADMISSION PROCESS </a>
+                </div>
+                <div class="admprocess2"
+                    style="background-color:#333F50;   margin-top: 20px; margin-left: 10%; margin-right: 10%;">
+                    <a class="fa-solid fa-circle-info" style="font-size:25px; justify-items: center;  color:#FFC000;">
+                        <a class="adma">
+                            currently, we are accepting offline admission forms. please visit our school/call us to know
+                            more about the admission process.
+                        </a>
+                </div>
+
+                <div class="containeradm">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <article class="jsx-2808093879 stepWraper">
+                                <ul class="jsx-2808093879">
+                                    <li class="jsx-2808093879 column" style="width:200px;">
+                                   
+                                        <article class="jsx-2808093879  fa-solid fa-file-pen ">  </article>
+                                        <p class="jsx-2808093879"> Fill out the admission forms.</p>
+                                    </li>
+                                    <li class="jsx-2808093879 column" style="width:200px">
+                                        <article class="jsx-2808093879 fa-solid fa-file-lines"></article>
+                                        <p class="jsx-2808093879"> Submit the documents.</p>
+                                    </li>
+                                    <li class="jsx-2808093879 column" style="width:200px">
+                                        <article class="jsx-2808093879 fa-solid fa-credit-card"></article>
+                                        <p class="jsx-2808093879"> Payment method. </p>
+                                    </li>
+                                    <li class="jsx-2808093879 column" style="width:200px;">
+                                        <article class="jsx-2808093879 fa-solid fa-square-check"
+                                            style="background-color: #00B050; color:rgb(238, 238, 238);"></article>
+                                        <p class="jsx-2808093879"> Pay Fees. </p>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="footercontact">
+                <div class="ftcontact1">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="ftcontact2">
+                    <div class="ftcontact2a">
+                        <div class="ftcontact2a1">
+                            <li class="fa-solid fa-earth-asia" aria-hidden="true"></li>
+                            <a> CENTRAL PUBLIC SCHOOL,<br>Ghusia Kalan, Bikramganj, Rohtas,
+                                <br>
+                                Bihar, 800212</a>
+                        </div>
+
+                    </div>
+                    <div class="ftcontact2a">
+                        <div class="ftcontact2a1 ftcontact2a2 ">
+                            <li style=" transform: rotate(-25deg);" class="fa-solid fa-phone-volume"> </li>
+                            <a>+91 7254973847<br><br>+91 9783738645</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="ftcontact3">
+                    <a>© Copyright 2021-2022 / Central public school</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<script src="js/main.js"></script>
+<!-- <script src="studentdetail.html"></script> -->
+
+</html>
