@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.loginbox1 .lgbtnn{
+  padding:6px 25px 6px 25px;
+ background-color: #006599;
+  letter-spacing: 2px; 
+  color: #262626d0;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+/*  login */
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+ width: 300px;
+  padding: 10px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #006599;
+  box-sizing: border-box;
+  border-radius: 50px 50px 50px 50px;
+  background-color: rgba(236, 236, 236, 0.753);
+}
+
+ 
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  position: relative;
+}
+
+.avatar1 {
+  margin-top: 5px;
+  color: #5f5e5e;
+  width: 100%;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.avatar2 {
+  width: 100%;
+  display: inline-block;
+  font-size: 10px;
+  color: #9c1111;
+  font-weight: bold;
+}
+
+span.psw {
+  float: right;
+  color: #03d0fd;
+  position: relative;
+  width: 50px;
+  height: 20px;
+  top: -80px;
+  left: -50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: block;
+}
+
+.containerr {
+  padding: 16px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.containerr .input1 {
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.containerr .input1 label {
+  margin: 5px;
+  color: #7F7F7F;
+}
+
+/* The Modal (background) */
+.modal {
+  background-color: #000000bd;
+  display: none;   
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-weight: bold;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+}
+
+
+.modal-content { 
+  overflow: hidden;
+  background-color: #ffffff; 
+  opacity: 0.95; 
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.521); 
+  text-align: center;
+  align-items: center;
+  height:max-content;
+  margin: 15% auto 15% auto;
+  width:fit-content;
+ position:  relative;
+}
+@media (max-width: 450px) {
+  input[type="text"],
+input[type="password"] {
+ width :70%;
+  padding: 10px 20px;
+  
+  display: inline-block;
+  border: 1px solid #006599;
+  box-sizing: border-box;
+  border-radius: 50px 50px 50px 50px;
+  background-color: rgba(236, 236, 236, 0.753);
+}
+  .modal-content { 
+ 
+    margin-top:40%;
+  }
+}
+.closebtn {
+  display: none;
+}
+
+.openbtn {
+  display: none;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.containerr .lbtn {
+  display: inline-block;
+  background-color: #006599;
+  cursor: pointer;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding: 4px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 2px;
+  margin: 15px;
+  font-family: Calibri;
+}
+ 
+.lbtn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile setup ============ */
+/* 
+@media (max-width: 450px) {
+   
+  .spacebox-col {
+    display: none;
+    flex-direction: column;
+  }
+  .logo1-col {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  
+  .header .logo1-col {
+    background-color:rgb(110, 105, 105);
+    display: inline;
+    width: 70%;
+    
+  }
+  .logo{
+    top:0;
+    float: left;
+    max-width:85px;
+    display:flex;
+    background-color: aqua;
+    max-height:85px;
+    
+  }
+  .logoimg{
+    margin:2px;
+    display:inline-block;
+    background-color:red;
+    width: 80px;
+    height: 80px;
+  }
+  .logoname{
+    display:flex;
+    width:70%;
+    max-height: 60px;
+    position: relative;
+    background-color:blue;
+  }
+  .logoname a{
+
+       display:inline-table;
+  
+    position:relative;
+    font-size: 14px;
+  }
+ 
+} */
+
+/*    END   mobile setup ============ */
