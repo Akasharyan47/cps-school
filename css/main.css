@@ -52,6 +52,7 @@ img {vertical-align: middle;}
 .mySlides img{
   width:100%;
   border-radius: 5px;
+  min-height: 150px;
 }
 
     
