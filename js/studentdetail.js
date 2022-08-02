@@ -155,7 +155,6 @@ function replace() {
 
 //    HIDE STD DETIL     END   
 
-
 //  user name print  start 
    
     // let user_name = (response.user_name); 
