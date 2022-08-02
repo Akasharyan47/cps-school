@@ -151,6 +151,39 @@ function showSlides() {
  
  //END 
   
+  // announcement list  start --
+ 
+fetch('http://3.110.93.183/notification-details', {
+  method: "GET",
+  headers: {
+    'content-type': 'application/json',
+    'Accept': 'application/json',
+  },
+  body: JSON.stringify(),
+})
+
+  .then((response) => response.json())
+  .then((response) => {
+
+    if (response.apiStatus == true) { 
   
+        console.log(response.notificationDetail);
+        const html = response.notificationDetail
+            .map(user => {
+                return `
+                        <div class="b">
+                            <li>  ${user.notification} ,
+                              ${user.link}</li> 
+                        </div> 
+                       
+                `;
+            })
+            .join("");
+        console.log(html)
+        document.querySelector('#announcementlist').insertAdjacentHTML('afterbegin', html);
+
+    } 
+  }); 
+ // announcement list  END 
 
  
