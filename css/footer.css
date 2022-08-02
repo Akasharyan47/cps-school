@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,100,200,300);
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* footer========================== */
+.footerbox {
+  display: block;
+  position: relative;
+  background-color: #F2F2F2;
+}
+
+.footerabout {
+  margin-top: 30px;
+  display: inline-table;
+  width: 100%;
+  font-size: 16px;
+}
+
+.footerabout a {
+  letter-spacing: 1px;
+  margin-left: 20px;
+  color: #005F8E;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  font-weight: bold;
+  font-size: 1.9rem;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* .footerabout :after {
+  background-color: #FFC000;
+  position: relative;
+  content: "";
+  box-sizing: border-box;
+  border: 4px solid #FFC000;
+  margin: 4px;
+  width: 80px;
+  border-radius: 2.5em;
+  transform: rotate(180deg);
+} */
+.footerup {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center; 
+ 
+} 
+
+.footerup h2 {
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: inherit;
+  line-height: 20px;
+  font-size: 1.5rem;
+  align-items: center;
+  color: #363636f1; 
+  margin-bottom: 50px;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+}
+  @media screen and (max-width: 700px) {
+  .footerup h2 {
+    font-size: 1.4rem; 
+}  
+}
+
+
+/* footer  contact ============= */
+
+.footercontact {
+  bottom: 0;
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+  overflow: hidden;
+  color: #d3d3d3;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.footercontact .ftcontact1 {
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
+.footercontact .ftcontact1 h2 {
+  color: #005F8E;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border-top: 3px solid #FFC000;
+  border-bottom: 3px solid #FFC000;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+.footercontact.ftcontact2 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: block;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+
+}
+
+
+.ftcontact2 .ftcontact2a {
+  margin: 2px;
+  width: 49%;
+  height: auto;
+  display:inline-block;
+  overflow: hidden;
+
+   
+}
+.ftcontact2a1{
+  position: relative;
+ display: flex;
+  margin: 2px;
+  width:fit-content;
+  height:fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%; 
+
+}
+.ftcontact2a2{
+  float: right;
+}
+.ftcontact2 .ftcontact2a1  li {
+ 
+  font-size: 30px;
+  color: #005F8E;
+  display: inline-block; 
+}
+
+.ftcontact2 .ftcontact2a1 a {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: #464646e8;
+  margin: 30px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.4rem;
+  position: relative; 
+} 
+.footercontact .ftcontact3 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  background-color: #FF9933;
+}
+
+.ftcontact3 a {
+   color: rgb(243, 243, 243); 
+  letter-spacing: 1px;
+  position: relative;
+  margin: 13px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-items: baseline;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*   mobile  responsive  */
+@media screen and (max-width: 700px) {
+  .ftcontact2 .ftcontact2a1 a { 
+    font-size: 1.2rem;
+    
+  } 
+  .ftcontact2 .ftcontact2a {
+    width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+  }
+
+  .ftcontact3 a {
+    color: rgb(243, 243, 243); 
+   letter-spacing: 1px;
+   position: relative;
+   margin: 13px;
+   font-size: 1.2rem; 
+ }
+
+ 
+}
+
+
+ 
