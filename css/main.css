@@ -282,6 +282,8 @@ img {vertical-align: middle;}
  
 
 
+
+
 /*  MAIN 3  START  */
 
 .main3 {
@@ -329,28 +331,29 @@ img {vertical-align: middle;}
   min-width: 100px; 
 } */
 
-.announcement1 {
-  width: 50%;
-  border-right: 60px solid #FFC000;
+.announcement1 { 
+  /* width: 50%; */
+  /* border-right: 60px solid #FFC000; */
+  width: 100%;
   transform: skew(-20deg);
   display: block;
 
 }
 
-.announcement2 {
+/* .announcement2 {
   width: 50%;
   display: block;
 
-}
+} */
 
-.announcements1 { 
+.announcements1 {  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   width: 100%;
   justify-content: right;
 }
 
-.main3 .announcement11 { 
+.main3 .announcement11 {  
   transform: skew(20deg);
   width: 100%;
   display: -webkit-box;
@@ -368,7 +371,7 @@ img {vertical-align: middle;}
 }
 
 
-.announcements1 .ansment1 {
+.announcements1 .ansment1 { 
   display: flex;
    width: 160px;
   /* max-width: 150px; */
@@ -380,7 +383,7 @@ img {vertical-align: middle;}
 
 }
 
-.announcements .announcements1 .ansment2 {
+ .announcements .announcements1 .ansment2 {
   position: relative;
   width: 160px;
   /* max-width: 150px; */
@@ -393,10 +396,11 @@ img {vertical-align: middle;}
 }
 
 .announcements .announcements2 { 
-  width: 70%;
+ 
+  width: 90%;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 15px;
+ 
   margin-bottom: 30px;
   display: block;
 
@@ -404,11 +408,11 @@ img {vertical-align: middle;}
 
 .announcements2 a { 
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 4rem;
   width: 100%;
   display: block;
   position: relative;
-  color: #F2F2F2;
+  color: #F2F2F2; 
 }
 
 .fa {
@@ -418,22 +422,24 @@ img {vertical-align: middle;}
   transform: translate(0, 0);
 }
 
-.announcements2 ul { 
+.announcements2 ul {  
   display: block;
-  width: 80%;
-  height: 160px;
+  width: 100%;
+  height: 170px;
   overflow: auto;
   min-width: 250px;
 
 }
 
 .announcements2 ul li { 
+  
   cursor: pointer;
-  margin: 20px;
+  margin: 18px;
   color: #F2F2F2;
-  border-bottom: 1px solid rgba(45, 109, 194, 0.918);
-  line-height: 1.5rem;
-  font-size: 14px;
+  border-bottom:  1px solid rgba(2, 41, 88, 0.918);
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
