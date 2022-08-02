@@ -1,6 +1,5 @@
 //  teacher list show
 
-
 function fetchData() {
     fetch("https://reqres.in/api/users")
         .then(response => {
