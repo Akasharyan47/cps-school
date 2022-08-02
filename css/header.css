@@ -155,6 +155,7 @@ Responsive Codes
     margin: 0px;
   }
    .lgnme {
+     margin-left: 10px;
     margin-top: 10px;
     letter-spacing: 1px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
