@@ -13,14 +13,12 @@
   position: relative;
   background-color: #F2F2F2;
 }
-
 .footerabout {
   margin-top: 30px;
   display: inline-table;
   width: 100%;
   font-size: 16px;
 }
-
 .footerabout a {
   letter-spacing: 1px;
   margin-left: 20px;
@@ -73,7 +71,6 @@
    font-size: 1.4rem; 
 }  
 }
-
 
 /* footer  contact ============= */
 
