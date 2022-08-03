@@ -1,12 +1,10 @@
 //     responsive  mobile nav bar 
 {
-  const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
 const nav_header = document.querySelector(".header");
  
-
 const toggleNavbar = () => {
   nav_header.classList.toggle("active");
- 
 };
 
 mobile_nav.addEventListener("click", () => toggleNavbar());
@@ -18,15 +16,10 @@ function bars() {
 function xmark() {
   document.getElementById("main").style.display = "block";
 }
-
 }
 //     responsive  mobile nav bar    END
 
  
-
-
- 
-
 // var modal = document.getElementById('id01');
 // window.onclick = function (event) {
 //     if (event.target == modal) {
@@ -60,14 +53,12 @@ document.getElementById("submit").addEventListener("click", function (e) {
     .then((response) => {
 
       if (response.status == "success") {
-        //  window.open("studentdetail.html", '_blank').focus();
         // window.location.href = "studentdetail.html";
         // window.open("studentdetail.html", '_blank').focus(); 
  
         {
           // let unm = (response.user_name);
           // unm=document.getElementById("urnme").innerHTML = unm;
-          // console.log(response.user_name);
           // console.log(unm);
           
           let user_name = (response.user_name); 
@@ -76,9 +67,7 @@ document.getElementById("submit").addEventListener("click", function (e) {
           user_name=document.getElementById("user_name")
           localStorage.setItem("user_name",response.user_name) 
  
-        }
-        
- 
+        } 
       }
       else {
         alert("invaled pass")
@@ -116,17 +105,10 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
- 
-
-
-
-
-
+  
 // cps  image slide END  
- 
-  
-  
 
+  
  // announcement list  start --
  
 fetch('http://3.110.93.183/notification-details', {
@@ -147,17 +129,15 @@ fetch('http://3.110.93.183/notification-details', {
         const html = response.notificationDetail
             .map(user => {
                 return `
-                        <div  >
+                        <div>
                             <li>  ${user.notification} ,
                               ${user.link}</li> 
-                        </div> 
-                       
+                        </div>
                 `;
             })
             .join("");
         console.log(html)
         document.querySelector('#announcementlist').insertAdjacentHTML('afterbegin', html);
-
     } 
   }); 
  // announcement list  END 
