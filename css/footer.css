@@ -100,7 +100,7 @@
 .footercontact .ftcontact1 h2 {
   color: #005F8E;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 1.7rem;
   border-top: 3px solid #FFC000;
   border-bottom: 3px solid #FFC000;
   border-bottom-left-radius: 0.5em;
@@ -206,8 +206,9 @@
    margin: 13px;
    font-size: 1.2rem; 
  }
-
- 
+  .footercontact .ftcontact1 h2 {
+  font-size: 1.5rem; 
+}
 }
 
 
