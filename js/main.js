@@ -140,8 +140,7 @@ function notificationdata(){
                        
                 `;
             })
-            .join("");
-        console.log(html)
+            .join(""); 
         document.querySelector('#announcementlist').insertAdjacentHTML('afterbegin', html);
 
     } 
