@@ -27,7 +27,7 @@ function teachersdata(){
                             
                             <div class="b">
                                  <p><b>Name:</b> ${user.name}</p>
-                                 <p><b>Email:</b> ${user.subjects}</p> 
+                                 <p><b>Subject:</b> ${user.subjects}</p> 
                             </div>  
                         </div> 
                     </div> 
