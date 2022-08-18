@@ -111,12 +111,16 @@ function showSlides() {
   
  // announcement list  start --
  
-fetch('http://3.110.93.183/notification-details', {
-  method: "GET",
-  headers: {
+function notificationdata(){
+  fetch('https://yg1y0egp9c.execute-api.ap-south-1.amazonaws.com/dev/notification-details',{
+  method:'GET',
+ 
+  crossDomain: true,
+  headers:{
     'content-type': 'application/json',
     'Accept': 'application/json',
   },
+  crossDomain: true,
   body: JSON.stringify(),
 })
 
@@ -132,12 +136,16 @@ fetch('http://3.110.93.183/notification-details', {
                         <div>
                             <li>  ${user.notification} ,
                               ${user.link}</li> 
-                        </div>
+                        </div> 
+                       
                 `;
             })
             .join("");
         console.log(html)
         document.querySelector('#announcementlist').insertAdjacentHTML('afterbegin', html);
+
     } 
   }); 
+ }
+ notificationdata();
  // announcement list  END 
