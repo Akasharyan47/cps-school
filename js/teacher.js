@@ -34,7 +34,8 @@ function teachersdata() {
                 </div> 
                     `;
                     })
-                    .join("");
+                    .join("")
+                    .replace(/[|]/g, ' , ');
 
                 document.querySelector('#teacherlist').insertAdjacentHTML('afterbegin', html);
             }
