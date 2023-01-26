@@ -3,7 +3,7 @@
 teachersdata();
 
 function teachersdata() {
-    fetch('https://nsch6pq5cd.execute-api.ap-south-1.amazonaws.com/dev/teachers-detail', {
+    fetch('https://nsch6pq5cd.exeecute-api.ap-south-1.amazonaws.com/dev/teachers-detail', {
         method: 'GET',
         headers: {
             'content-type': 'application/json',
